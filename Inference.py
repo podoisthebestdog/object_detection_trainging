@@ -1,4 +1,5 @@
 # Inference for ONNX model  
+import os
 import cv2
 cuda = True
 w = "yolov7-tiny.onnx"
@@ -8,7 +9,7 @@ import cv2
 import time
 import requests
 import random
-import numpy as np
+import numpy as np 
 import onnxruntime as ort
 from PIL import Image
 from pathlib import Path
